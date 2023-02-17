@@ -1,5 +1,5 @@
 .profile {
-  width: 1000px;
+  width: 800px;
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
@@ -15,7 +15,7 @@
   flex-direction: column;
   align-items: center;
   width: inherit;
-  border-bottom: #7e6f7498 solid 2px;
+  border-bottom: #928db998 solid 1px;
 }
 
 .avatar {
@@ -31,20 +31,20 @@
   font-weight: 700;
   font-size: 30px;
   margin-bottom: 15px;
-  color: #524a4d;
+  color: #30367e;
 }
 
 .tag {
   font-weight: 500;
   font-size: 20px;
-  color: #524a4d;
+  color: #30367e;
   margin-bottom: 15px;
 }
 
 .location {
   font-weight: 700;
   font-size: 20px;
-  color: #524a4d;
+  color: #30367e;
   margin-bottom: 15px;
 }
 .stats {
@@ -54,7 +54,7 @@
   margin: auto;
   padding: 0;
   width: inherit;
-  background-color: #7e6f7449;
+  background-color: #b2c7e7;
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
 }
@@ -70,14 +70,14 @@
 
 .label {
   margin-right: 3px;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 20px;
-  color: #524a4d8b;
+  color: #0c12208b;
   margin-bottom: 5px;
 }
 
 .quantity {
   font-weight: 800;
   font-size: 20px;
-  color: #524a4d;
+  color: #0e0b24;
 }

@@ -8,9 +8,9 @@
 }
 
 .title {
-  font-weight: 700;
+  font-weight: 500;
   font-size: 30px;
-  margin-bottom: 15px;
+  padding: 30px;
   color: #524a4d;
 }
 
@@ -32,12 +32,12 @@
 .label {
   font-weight: 500;
   font-size: 15px;
-  color: #ffffff;
+  color: #000000;
   margin-bottom: 5px;
 }
 
 .percentage {
   font-weight: 600;
   font-size: 20px;
-  color: #ffffff;
+  color: #000000;
 }
