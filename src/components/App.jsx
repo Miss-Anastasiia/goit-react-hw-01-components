@@ -6,10 +6,10 @@ import { TransactionHistory } from './Transactions/Transactions.jsx';
 
 
 
-import user from './Data/user.json';
-import data from './Data/data.json';
-import friends from './Data/friends.json'
-import transactions from './Data/transactions.json'
+import user from '../Data/user.json';
+import data from '../Data/data.json';
+import friends from '../Data/friends.json'
+import transactions from '../Data/transactions.json'
 
 
 

@@ -18,7 +18,7 @@ const createColor = () => {
 
 export const Statistics = ({ title, stats }) => {
   return (
-    <section class={css.statistics}>
+    <section className={css.statistics}>
       {title && <h2 className={css.title}>{title}</h2>}
 
       <ul className={css.stats__list}>
@@ -40,8 +40,13 @@ export const Statistics = ({ title, stats }) => {
 };
 
 Statistics.propTypes = {
-    title: PropTypes.string,
-    id: PropTypes.string.isRequired,
+  title: PropTypes.string,
+  stats: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.string.isRequired,
     label: PropTypes.string.isRequired,
     percentage:PropTypes.number.isRequired,
+    }),
+  ),
+    
 }
